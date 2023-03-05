@@ -1,0 +1,31 @@
+---
+layout: default
+modal-id: 6
+title: Analyze Bookings, Cancellation and Refunds
+date: 2014-07-15
+img: submarine.gif
+alt: image-alt
+project-date:
+client:
+category: Certification
+description:
+situation: '<p align="left"> <b>Situation</b>: An electric mobility company was struggling to analyze their data and extract insights. Important metrics like as bookings, cancellations and refunds were not matching across different senarios. They were lacking a single source of truth. </p>'
+
+task: '<p align="left"> <b>Task</b>: To prepare a MS Power BI dashboard that provides a one-stop view of these metrics, enabling decision-makers to make informed decisions about operations and marketing.</p>'
+
+action: '<p align="left"> <b>Action</b>: To complete the project, you take the following actions: <br><br>
+
+1. Gather data: Collect data on bookings, cancellations, and refunds from different sources such as customer relationship management (CRM) systems, accounting systems, other databases and booking platforms. <br><br>
+
+2. Define facts: Determine the critical metrics that need to be tracked, such as the number of bookings, cancellations, refunds, and the associated revenue and cost. <br><br>
+
+3. Define dimensions: Identify the different dimensions such as location, month, year, bus type, agent and gender, that the data will be analyzed by. <br><br>
+
+4. Build Star Schema: In Power Query, build a star schema model. Perform appropriate steps and ensure query folding is applied to improve report performance.
+
+5. Design the dashboard: Use Power BI to design the dashboard by selecting the relevant visuals, charts, and graphs to display the data in an easily digestible format. <br><br>
+
+6. Test and refine: Test the dashboard with a subset of users to gather feedback and refine the design and functionality. </p>'
+
+result: '<p align="left"> <b>Result</b>: The Power BI dashboard provides a one-stop view of bookings, cancellations, and refunds across different dimensions, enabling decision-makers to make informed decisions about operations and marketing. We were able to provide insights on  </p>'
+---

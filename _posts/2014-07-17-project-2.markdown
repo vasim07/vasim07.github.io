@@ -1,0 +1,29 @@
+---
+layout: default
+modal-id: 2
+title: Predict Price of Used Car.
+date: 2014-07-17
+img: cake.png
+alt: image-alt
+project-date: August 2021
+client: Confidential
+category: Data Science
+description: 
+
+situation: '<p align="left"> <b>Situation</b>: An insurance company wants to predict the price of used cars for the purpose of setting appropriate premiums for car insurance policies. They have provided you with a dataset of historical car sales that includes features such as the make and model of the car, the year it was manufactured, its mileage, its condition, and the sale price. </p>'
+
+task: '<p align="left"> <b>Task</b>: Your task is to build a machine learning model that can accurately predict the price of a used car based on its features. You will need to preprocess the data, select appropriate features, and train and validate a regression model using a suitable algorithm. You will also need to tune the models hyperparameters to optimize its performance.</p>'
+
+action: '<p align="left"> <b>Action</b>: To complete the project, you take the following actions: <br><br>
+1. Data pre-processing: You clean the dataset by removing missing values and outliers, and encode categorical variables using one-hot encoding or label encoding.<br><br>
+
+2. Feature selection: You analyze the correlation between each feature and the target variable and select the most relevant ones.<br><br>
+
+3. Model training: You split the dataset into training and validation sets, and train a regression model using a suitable algorithm such as Linear Regression, Decision Trees, Random Forest, or Gradient Boosting.<br><br>
+
+4. Model tuning: You tune the hyperparameters of the model using techniques such as Grid Search or Randomized Search, to optimize its performance on the validation set.<br><br>
+
+5. Model evaluation: You evaluate the performance of the model using metrics such as Mean Squared Error, R-squared, or Root Mean Squared Error. You also perform cross-validation to ensure the models generalization ability. </p>'
+
+result: '<p align="left"> <b>Result</b>: After completing the above actions, you present the insurance company with a machine learning model that can predict the price of a used car based on its features with a high degree of accuracy. The insurance company can use this model to set appropriate premiums for car insurance policies, reducing the risk of undercharging or overcharging customers. </p>'
+---

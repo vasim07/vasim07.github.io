@@ -1,0 +1,28 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: circus.png
+alt: image-alt
+project-date: January 2020
+client: Confidential
+category: Data Warehouse
+description: 
+situation: '<p align="left"> <b>Situation</b>: The company has multiple data sources that store data in different formats and structures, making it difficult to generate insights and reports. The company has decided to build a data warehouse using Synapse Analytics, and you have been assigned as the data engineer to design and implement the data warehouse. </p>'
+
+task: '<p align="left"> <b>Task</b>: Your task is to design and implement a data warehouse that uses dimensional modeling to store and analyze data. You will need to extract data from multiple sources, transform it into a consistent format, and load it into the data warehouse. You will also need to design and implement the appropriate data models, tables, and relationships to support business analytics and reporting.</p>'
+
+action: '<p align="left"> <b>Action</b>: To complete the project, you take the following actions: <br><br>
+
+1. Data profiling: You analyze the data sources to understand their structure, content, and quality. You identify any data quality issues, inconsistencies, or missing data that need to be addressed.<br><br>
+
+2. Data integration: You design and implement ETL processes using SQL and Python to extract, transform, and load data from multiple sources into the data warehouse. You use techniques such as data mapping, data transformation, and data cleansing to ensure data consistency and accuracy.<br><br>
+
+3. Data modeling: You design and implement the appropriate data models, tables, and relationships to support dimensional modeling. You use tools such as Power BI or Azure Analysis Services to create and manage the data models.<br><br>
+
+4. Data loading: You load the transformed data into the data warehouse using Synapse Analytics. You use techniques such as bulk loading, incremental loading, or change data capture to ensure data consistency and performance.<br><br>
+
+4. Data validation: You validate the data in the data warehouse to ensure its quality, accuracy, and completeness. You use techniques such as data profiling, data sampling, and data visualization to detect any anomalies or inconsistencies. </p>'
+
+result: '<p align="left"> <b>Result</b>: After completing the above actions, you present the company with a fully functional data warehouse that uses dimensional modeling to store and analyze data. The data warehouse allows the company to generate insights and reports that were previously not possible, improving their decision-making and operational efficiency. The company can now easily access and analyze their data from multiple sources in a consistent and reliable manner, making it easier to identify trends, patterns, and opportunities. </p>'
+---

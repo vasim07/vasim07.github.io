@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 5
+title: Microsoft Certification
+date: 2014-07-14
+img: safe.png
+alt: image-alt
+project-date:
+client:
+category:
+description: '<p align="left">Specialize in building end-to-end data solutions on the Azure platform, from data ingestion and transformation to advanced analytics and visualization. My expertise in Azure services such as Azure Machine Learning, Azure Databricks, Azure Data Factory, Azure Synapse Analytics, and MS Power BI enables me to deliver high-quality solutions that meet the unique needs of my clients. <br><br>
+
+Whether you need help with predictive modeling, data warehousing, ETL processes, data visualization, or any other data-related project, I am confident that I can provide the expertise and support you need. I have a strong track record of delivering successful projects on time and within budget, and I am committed to providing the highest level of service to my clients.'
+---
