@@ -1,70 +1,37 @@
 # Site settings
-title: VASIM SHAIKH
-email: aba20shaikhabdulv@iima.ac.in
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Data Analytics - Data Visualization - Analytics Engineer"
-brief1: "Specilize in Power BI, SQL and Python"
-brief2: "Six Microsoft Azure Data Certified"
-brief3: "Diploma in Business Analytics from 8th ranked B-School in Asia"
-meta_author: Vasim Shaikh
+title: Enclyx - data & AI partner
+email:
+description: Official website of Enclyx
 
-# Google webmaster tools
-google_verify:
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://jekynewage.github.io" # the base hostname & protocol for your site
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+#Google Ad Words Data from scripts code (using Google responsive options) and ad client
+data-ad-slot: 
+data-ad-client: 
+google_ad_client: 
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
+google_analytics: 
+addthis_id: 
+disqus_account: 
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Contact
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
-  - title: linkedin
-    url:
-  - title: stack-overflow
-    url: https://stackoverflow.com/users/2519002/vasim?tab=profile
-  - title: github
-    url: https://github.com/vasim07
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Mumbai
-  - line: Maharashtra, India
-
-# Credits content
-credits: 9773456473 aba20shaikhabdulv@iima.ac.in
+  - title: twitter
+    url: https://twitter.com/lantoniotrento
+  - title: facebook
+    url: https://facebook.com/lantoniotrento
+  - title: google-plus
+    url: https://plus.google.com/+AntoniotrentoIt
+  #- title: github
+  #  url: http://github.com/jekyll
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
+gems: [jekyll-paginate, jekyll-feed]
+# Build settings
