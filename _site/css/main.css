@@ -220,7 +220,8 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 25px 0;
+  background-color: floralwhite;
 }
 section h2 {
   font-size: 50px;
