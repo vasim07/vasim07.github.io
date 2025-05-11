@@ -22,12 +22,17 @@
     - tag: Analytics
     - tag: Data Visualization
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Predicting The Costs Of Used Cars (3rd place)
+  descr: "Cars are more than just a utility for many. They are often the pride and status of the family. We all have different tastes when it comes to owning a car or at least when thinking of owning one. Predicting the costs of used cars given the data collected from various sources and distributed across various locations in India."
+  demo: https://analyticsindiamag.com/deep-tech/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/
   tags:
     - tag: Python
-    - tag: Django
+    - tag: Data science
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Power BI Real Estate Dashboard | Advanced Analytics
+  descr: "Explore how Power BI can transform real estate data into actionable insights! In this demo, I showcase an interactive dashboard built for the real estate sector using advanced Power BI visuals such as Maps, Key Influencer, and Decomposition Tree."
+  demo: https://youtu.be/puILeezF_5g
+  tags:
+    - tag: Power BI
+    - tag: Analytics
+    - tag: Data Visualization
