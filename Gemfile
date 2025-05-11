@@ -1,8 +1,6 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
+gem "dotenv"
+gem "github-pages"
 gem "jekyll"
-
-gem "jekyll-paginate"
-gem "jekyll-feed"
+gem "jekyll-github-metadata"

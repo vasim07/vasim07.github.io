@@ -1,0 +1,4 @@
+Once in folder, just run gulp in terminal
+Go to localhost:4000
+
+Windows - https://github.com/longpdo/neumorphism/issues/16

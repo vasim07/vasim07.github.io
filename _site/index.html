@@ -2,402 +2,627 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Vasim Analytics</title>
+  <meta name="description" content="Personal website powered by Jekyll">
 
-    <title>Enclyx - data & AI partner</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
 
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="/vendor/device-mockups/device-mockups.min.css">
-
-    <!-- Custom CSS
-    <link rel="stylesheet" href="css/main.css" type="text/css"> -->
-    <link href="/css/main.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Google ADS mobile block -->
-    
-
-    
-
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
 </head>
 
-
-<body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Enclyx</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-			<!--
-              <li>
-                  <a class="page-scroll" href="/funds">Help the project</a>
-              </li>
-                <li>
-                    <a class="page-scroll" href="#download">Download</a>
-                </li>
-				-->
-                <li>
-                    <a class="page-scroll" href="#features">Services</a>
-                </li>
-				<!--
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#why">Why</a>
-                </li>
-				-->
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-				<!--
-                <li>
-                    <a href="/blog/">Blog</a>
-                </li>
-				-->
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
     </div>
-    <!-- /.container-fluid -->
-</nav>
+  </div>
+  <div id="landing">
+  <div class="landing-title">
+    <div class="profile-picture" style="width: 192px; height: 192px;">
+      <img src="https://github.com/vasim07.png?size=192" alt="Vasim Shaikh's Photo">
+    </div> 
+    <h1>Hi, I&#39;m
+      <span class="highlight-title">Vasim Shaikh</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["Power BI | ETL | Data Science", "scroll down for more."]'
+      >
+      </span>
+    </h1> 
+    <div class="landing-icons"> 
+      
+        <a class="social-link email" aria-label="My E-Mail" href="mailto:vasim@enclyx.com">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope""></use>
+            </svg>
+          </div>
+          <span class="label">E-Mail </span>
+        </a>
+      
 
-  <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="header-content">
-                    <div class="header-content-inner">
-                        <h1>Enclyx, Unlock the power of BI and Analytics!</h1>
-						<p>
-						<h3><b>Zero</b> fees charged, if you are unhappy with our services. No questions asked* </h3>
-						</p>
-						<p>
-						<h3>We offer services on data analysis, data warehousing, interactive dashboards, and predictive modelling. </h3>
-						</p>
-						<hr>
-						<p>
-						<h4>*Applicable to USA, UK & Australia customers only.</h4>
-						<h4>Get 1 hour of free online consultation</h4>
-						<h4>enquire@enclyx.com</h4>
-						</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
-                        <div class="device">
-                            <div class="screen">
-                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="/img/analytics.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      
+        <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/vasim07"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub </span>
+        </a>
+      
+
+      
+        <a class="social-link" aria-label="My Codepen" target="_blank" rel="noreferrer"
+          href="https://codepen.io/exampleUser"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#codepen"></use>
+            </svg>
+          </div>
+          <span class="label">CodePen</span>
+        </a>
+      
+
+      
+
+      
+        <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+          rel="noreferrer" href="https://www.linkedin.com/in/exampleUser"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+            </svg>
+          </div>
+          <span class="label">LinkedIn</span>
+        </a>
+      
+
+      
     </div>
-</header>
-
-  
-    <section id="features" class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-left">
-                    <div class="section-heading">
-						<p class="text-muted text-center">Transform your raw data into actionable insights to take informed decisions.!</p>
-						<hr>
-                        <h3>Any of these struggle sounds familiar?</h3>
-						
-						<div class = "text-left">
-							<ul><ul>
-								<li><p>Our data is siloed in its individual departments.</p></li>
-								<li><p>Our leaders don't use data to drive decision making.</p></li>
-								<li><p>We don't trust our data is accurate.</p></li>
-								<li><p>We don't have a proper data strategy.</p></li>
-								<li><p>We spend too much time on inefficient manual processes.</p></li>
-								<li><p>We lack accountability on our ongoing projects.</p></li>
-								<li><p>We have a difficult time completing projects on-time and on-budget.</p></li>
-								<li><p>We struggle to prioritize initiatives and properly allocate resources.</p></li>
-							</ul></ul>
-							
-						</div>
-						<hr>
-						<h3>Enclyx professionals can help you to build a proper data roadmap for your business.</h3>
-                    </div>
-                </div >
-            </div>
-            	<!--
-			<div class="row">
-			
-                <div class="col-md-4">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen">
-                                    <!- - Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! - ->
-                                    <img src="/img/handsharke.jpg" class="img-responsive" alt=""> </div>
-                                <div class="button">
-                                    <!- - You can hook the "home button" to some JavaScript events or just remove it - ->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			-->	
-			<!--
-                <div class="col-md-12">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-3 text-center">
-                                <div class="feature-item">
-									<!- - <img src="/img/PowerBI.png" class="img-responsive" alt="MS Power BI" > - ->
-									<i class="icon-lock-open text-primary"></i>
-                                    <h3>MS Power BI</h3>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-								
-                                <div class="feature-item">
-                                    <!- - <img src="/img/mssql.png" class="img-responsive" alt="MS Power BI" >  - ->
-									<i class="icon-lock-open text-primary"></i>
-                                    <h3>MS SQL Server</h3>
-                                </div>
-                            </div>
-							<div class="row">
-                            <div class="col-md-3">
-                                <div class="feature-item">
-                                    <i class="icon-lock-open text-primary"></i>
-                                    <h3>Synapse Analytics</h3>
-                                </div>
-                            </div>
-							<div class="row">
-                            <div class="col-md-3">
-                                <div class="feature-item">
-                                    <i class="icon-lock-open text-primary"></i>
-                                    <h3>Azure ML</h3>
-                                </div>
-                            </div>
-                        </div>
-						-->
-						<!--
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="feature-item">
-                                    <i class="icon-chart text-primary"></i>
-                                    <h3>Business Intelligence</h3>
-                                    <p class="text-muted">Get actionable insights that drive informed decision-making, track and monitor important business metrics.</p>
-                                </div>
-                            </div>
-							<div class="col-md-4">
-                                <div class="feature-item">
-                                    <i class="icon-globe text-primary"></i>
-                                    <h3>Machine Learning</h3>
-                                    <p class="text-muted">Empower your business with our machine learning expertise, harness insights to propel innovation.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="feature-item">
-                                    <i class="icon-screen-smartphone text-primary"></i>
-                                    <h3>App Integration</h3>
-                                    <p class="text-muted">Get model integrated with your digital ecosystem and ensure smooth interoperability.</p>
-                                </div>
-                            </div>
-                    </div>
-					
-                </div>
-				-->
-
-            </div>
-    </section>
-
-    <section id="download" class="download bg-primary text-center">
-    <div class="container">
-        <div class="row">
-			
-			  <div class="col-md-3">
-				  <h1>  5+ </h1>
-				  <h3><div> Years of experience</div></h3>
-			  </div>
-			
-		  <div class="col-md-3">
-			<h1>  4 </h1>
-			<h3><div> Average execution week</div></h3>
-		  </div>
-		  
-		  <div class="col-md-3">
-			  <h1>  82% </h1>
-				  <h3><div> Success rate </div></h3>
-		  </div>
-		  
-		  <div class="col-md-3">
-			  <h1>  280 </h1>
-				  <h3><div> Hours saved</div></h3>
-		  </div>
+  </div>
 </div>
-    </div>
-</section>
 
-  <section id="why">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3 class="section-heading">Testimonials</h3>
-                <hr class="primary">
-                <br />
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 text-left">
-                <div class="service-box">
-                    <!-- <i class="fa fa-4x fa-google wow bounceIn text-primary"></i> -->
-                    <p>Collaborating with Enclyx proved transformative for our data analytics. Their profound understanding of the Microsoft stack, along with insightful strategies, reshaped our approach </p> <p>CTO, Retail Organization</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 text-left">
-                <div class="service-box">
-                    <!-- <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>  -->
-                    <p>Enclyx's extensive experience and deep knowledge of Power BI and SQL Server brought unparalleled value to our projects. Their effective project management ensured seamless execution.</p>  <p>Strategy Head Data and Analytics, Healthcare</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 text-left">
-                <div class="service-box">
-                    <!-- <i class="fa fa-4x fa-amazon wow bounceIn text-primary" data-wow-delay=".2s"></i>  -->
-                    <p>We needed inventory planning our warehouse. Enclyx expertize, dedication and to do attitude helped us to significantly improve our forecast and plan inventory.</p>  <p>Financial Head, Decor Ecommerce</p>
-                </div>
-            </div>
-			<!--
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>databricks</h3>
-                    <p class="text-muted">You have to make your websites with love these days!</p>
-                </div>
-            </div>
-			-->
-        </div>
-    </div>
-</section>
+  <div class="layout">
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">About Me</h1>
+<p class="description" data-aos="fade-down">I transform raw data into strategic assets by building end-to-end analytics solutions—from ETL pipelines and data modeling to interactive dashboards and predictive insights. With a Diploma in Advanced Analytics and hands-on experience across the data lifecycle, I help businesses turn raw data into actionable insights. <br><br>My Expertise: <br>ETL & Data Engineering: Designing scalable data pipelines for seamless ingestion and transformation. <br>Power BI: Creating intuitive Power BI reports that drive data-driven decision-making. <br>Advanced Analytics: Develop KPIs, statistical models, and ML-driven insights. <br>Data Science: Regression, clustering, and time-series forecasting for actionable predictions. <br>Data Governance: Ensure clean, documented, and scalable data pipelines. <br><br>Whether it’s automating data workflows, cleaning messy datasets, or delivering stakeholder-ready analytics, I bridge the gap between data and strategy—ensuring clarity, accuracy, and impact.</p> 
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills</h1>
+
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language">MS Power BI</label>
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework">Data Pipelines</label>
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Data Science</label> 
 
   
-<section id="contact" class="contact bg-primary">
-    <div class="container">
-        <h4>Let's connect</h4>
-		<h3>vasim@enclyx.com</h3>
-		<h3>All rights reserved | All wrong reversed</h3>
-		<!--
-        <ul class="list-inline list-social">
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      DAX
+    </div>
+  
+    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+      Power BI
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      RLS
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Power Query
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      Relationship
+    </div>
+  
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      SQL Database
+    </div>
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      Python
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      AWS Lambda
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      API
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Azure Synapse
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      PySpark
+    </div>
+  
+  
+    <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
+      Pandas
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Regression
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Classification
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Machine Learning
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Model Evaluation
+    </div>
+  
+</div>
+ 
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Education & Experience</h1>
+<p class="subtitle">
+  For more information, have a look at my
+  <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
+    curriculum vitae
+  </a>.
+</p>
+
+<div class="timeline-wrapper">  
+  <ul class="timeline">
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>NEC Software Solutions</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Jan 2020 - Present</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              BI Engineer
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Python</span>
+                  
+                    <span class="tag neumorphism-card">SQL</span>
+                  
+                    <span class="tag neumorphism-card">Power BI</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Willis Towers Watson</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Aug 2019 - Jan 2020</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              MI Manager
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Data Visualization</span>
+                  
+                    <span class="tag neumorphism-card">Team Management</span>
+                  
+                    <span class="tag neumorphism-card">SQL</span>
+                  
+                    <span class="tag neumorphism-card">Excel</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Rave Technologies</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Dec 2012 - Aug 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Reporting Manager
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Power BI</span>
+                  
+                    <span class="tag neumorphism-card">Excel</span>
+                  
+                    <span class="tag neumorphism-card">Data Analytics</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Jardine Lloyd Thompson</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Aug 2008 - Dec 2012</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              MI Assitant Manager
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Reporting</span>
+                  
+                    <span class="tag neumorphism-card">Excel Visualization</span>
+                  
+                    <span class="tag neumorphism-card">Data Analytics</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Indian Institute of Management, Ahmedabad</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2020 - 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Diploma in Advanced Business Analytics
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>N. L. Dalmia Institute of Management Studies and Research</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2017 - 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              MBA, Finance
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Microsoft</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2017 - 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Microsoft Certified
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Data Engineer</span>
+                  
+                    <span class="tag neumorphism-card">Data Science</span>
+                  
+                    <span class="tag neumorphism-card">Data Analyst</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+  </ul>
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        
+  <h1 class="title"><span>Freelance Projects</span></h1>
+  <div class="projects-wrapper">
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Power BI Project - Monitor & Improve Gross profit</h3> 
+        </div>
+        <p class="project-desc">The project demonstrate the use of Power BI to monitor and improve gross profit. It includes key metrics on a dashboard that provides insights into gross grofit, cost breakdown, and profitability metrics. The dashboard allows users to filter data by different dimensions such as work week, employee, manager etc. </p>
+        
+          <a class="highlight-link" href="https://youtu.be/j-fAP6O6htI" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
             
-            <li class="social-twitter">
-                <a href="https://twitter.com/lantoniotrento" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-            </li>
+              <span class="tag neumorphism-card">Power BI</span>
+            
+              <span class="tag neumorphism-card">SQL</span>
+            
+              <span class="tag neumorphism-card">Analytics</span>
+            
+              <span class="tag neumorphism-card">Data Visualization</span>
+            
+          </div>
         
-            <li class="social-facebook">
-                <a href="https://facebook.com/lantoniotrento" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-            </li>
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>project Y</h3> 
+        </div>
+        <p class="project-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
         
-            <li class="social-google-plus">
-                <a href="https://plus.google.com/+AntoniotrentoIt" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-            </li>
+          <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
+            Demo
+          </a>
         
-        </ul>
-		-->
-        <!-- <ul class="list-inline list-social">
-            <li class="social-twitter">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="social-facebook">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="social-google-plus">
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-            </li>
-        </ul> -->
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">Python</span>
+            
+              <span class="tag neumorphism-card">Django</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>project Z</h3> 
+        </div>
+        <p class="project-desc">You can also set a project without demo link and no tags</p>
+        
+        
+      </div>
+    
+  </div>
+
+
+
+
+
+
+      </section>
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact</h1>
+<p class="subtitle">Get in touch with me directly or reply to something on one of my socials!.</p>
+
+<div class="contact-icons">
+  
+  <a class="social-link" aria-label="My E-Mail" href="mailto:vasim@enclyx.com">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
+      </svg>
     </div>
-</section>
-<!--
-<footer>
-    <div class="container">
-        <p>&copy; 2016 theme by <a rel="nofollow" target="blank" href="https://startbootstrap.com/template-overviews/new-age/">Start Bootstrap</a> Built with <a target="_blank" rel="nofollow" href="https://jekyllrb.com/">Jekyll</a> by <a target="_blank" href="https://antoniotrento.net"><b>Antonio Trento</b></a> hosted on <a target="_blank" rel="nofollow" href="https://github.com/jekynewage/jekynewage.github.io">Github</a>. All Rights Reserved.</p>
-        <ul class="list-inline">
-            <li>
-                <a href="#">Privacy</a>
-            </li>
-            <li>
-                <a href="#">Terms</a>
-            </li>
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-        </ul>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/vasim07">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+      </svg>
     </div>
+  </a>
+  
+
+  
+  <a class="social-link black" aria-label="My Codepen" target="_blank" rel="noreferrer"
+    href="https://codepen.io/exampleUser">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#codepen"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
+    href="https://www.linkedin.com/in/exampleUser">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
+  <p>
+    Website by <b>Vasim Shaikh</b> | Last updated on May 11, 2025
+  </p>
+  <p>
+    &copy; 2020 Designed & Developed by 
+    <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
+      Long Do
+    </a>
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
 </footer>
--->
-  <!-- jQuery -->
-<script src="/js/jquery.js"></script>
 
-<!-- Bootstrap Core JavaScript
-<script src="js/bootstrap.min.js"></script> -->
+<!-- Google Analytics -->
 
-<!-- Plugin JavaScript -->
-<script src="/js/jquery.easing.min.js"></script>
-<script src="/js/jquery.fittext.js"></script>
-<script src="/js/wow.min.js"></script>
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", " ", "auto");
+    ga("send", "pageview");
+  }
+</script>
 
-<!-- Custom Theme JavaScript -->
-<script src="/js/creative.js"></script>
 
-<!-- jQuery
-<script src="/vendor/jquery/jquery.min.js"></script> -->
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-<!-- Theme JavaScript -->
-<script src="/js/new-age.min.js"></script>
-
-<!--
-
--->
 </body>
-
 </html>

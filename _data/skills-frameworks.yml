@@ -1,0 +1,24 @@
+# > name: Name of your framework
+# > weight: Describes how good you know the framework - values from 1 up to 5
+#
+# Example of a framework
+# - name: Framework
+#   weight: 5
+
+- name: SQL Database
+  weight: 5
+
+- name: Python
+  weight: 5
+
+- name: AWS Lambda
+  weight: 2  
+
+- name: API
+  weight: 3
+
+- name: Azure Synapse
+  weight: 3
+
+- name: PySpark
+  weight: 4  

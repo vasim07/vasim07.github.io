@@ -1,37 +1,132 @@
-# Site settings
-title: Enclyx - data & AI partner
-email:
-description: Official website of Enclyx
+### VALUES YOU SHOULD CHANGE ###
 
-baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://jekynewage.github.io" # the base hostname & protocol for your site
+# GENERAL SITE SETTINGS
+# title: This will be displayed as the website's name in your browser tab.
+title: Vasim Shaikh
+# description: This will be meta HTML tag content. This can be ignored.
+description: Welcome to my home page, which at this time serves as a history into my current progress towards a career in BI.
+# baseurl: The subpath of your site
+# > set this to "", if you renamed the repository to <user>.github.io
+baseurl: ""
 
-#Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 
-data-ad-client: 
-google_ad_client: 
+# LANDING PAGE
+# username: This will displayed on the landing page as your name.
+username: Vasim Shaikh
+# typing_text: This will be typed before 'scroll down for more'.
+# > set this to your job title, e.g. Fullstack Developer
+typing_text: Power BI | ETL | Data Science 
+profile_picture: https://github.com/vasim07.png?size=192
+profile_picture_size: 192px
+# email: Your E-Mail address for the email button.
+email: vasim@enclyx.com
+# For every social button you want to display, set your username or userid
+# If you do not use one of the following websites, then leave it empty
+# > twitter_username:
+github_username: vasim07
+codepen_username: exampleUser
+dev_username: 
+linkedin_username: exampleUser
+twitter_username: 
+stackoverflow_userid: 2519002
+youtube_handle:
 
-google_analytics: 
-addthis_id: 
-disqus_account: 
+# ABOUT ME SECTION
+# show_aboutme_card:
+# > setting this to true, will display the About Me section
+# > setting this to false, will omit the About Me section
+show_aboutme_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+about_me_title: About Me
+# about_me_description: This will be displayed under the title.
+about_me_description: "I transform raw data into strategic assets by building end-to-end analytics solutions—from ETL pipelines and data modeling to interactive dashboards and predictive insights. With a Diploma in Advanced Analytics and hands-on experience across the data lifecycle, I help businesses turn raw data into actionable insights. <br><br>My Expertise: <br>ETL & Data Engineering: Designing scalable data pipelines for seamless ingestion and transformation. <br>Power BI: Creating intuitive Power BI reports that drive data-driven decision-making. <br>Advanced Analytics: Develop KPIs, statistical models, and ML-driven insights. <br>Data Science: Regression, clustering, and time-series forecasting for actionable predictions. <br>Data Governance: Ensure clean, documented, and scalable data pipelines. <br><br>Whether it’s automating data workflows, cleaning messy datasets, or delivering stakeholder-ready analytics, I bridge the gap between data and strategy—ensuring clarity, accuracy, and impact."
 
-# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
-social:
-  - title: twitter
-    url: https://twitter.com/lantoniotrento
-  - title: facebook
-    url: https://facebook.com/lantoniotrento
-  - title: google-plus
-    url: https://plus.google.com/+AntoniotrentoIt
-  #- title: github
-  #  url: http://github.com/jekyll
+# SKILLS SECTION
+# show_skills_card:
+# > setting this to true, will display the Skills section
+# > setting this to false, will omit the Skills section
+show_skills_card: true
+# about_me_title: The will be displayed as the title in the Skills section
+skills_title: Skills
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+# TIMELINE SECTION
+# show_timeline_card:
+# > setting this to true, will display the Timeline section
+# > setting this to false, will omit the Timeline section
+show_timeline_card: true
+# timeline_title: The will be displayed as the title in the Timeline section
+timeline_title: Education & Experience
+# cv_download_link: The link where you host your cv.
+# > e.g. you share your cv on your dropbox, then add the dropbox link here
+cv_download_link: https://example.com/
 
-gems: [jekyll-paginate, jekyll-feed]
-# Build settings
+# PROJECTS SECTION
+# show_projects_card:
+# > setting this to true, will display the Projects section
+# > setting this to false, will omit the Projects section
+show_projects_card: true
+# show_projects:
+# > setting this to true, will display your listed projects in _data/projects.yml
+# > setting this to false, will omit your listed projects
+show_projects: true
+# projects_title: The will be displayed as the title of your projects
+projects_title: Freelance Projects
+# show_os_projects:
+# > setting this to true, will display your public projects on github
+# > setting this to false, will omit your public projects on github
+show_os_projects: false
+# os_projects_title: The will be displayed as the title of your open source projects
+os_projects_title: Freelance Projects
+
+# CONTACT SECTION
+# show_contact_card:
+# > setting this to true, will display the Contact section
+# > setting this to false, will omit the Contact section
+show_contact_card: true
+# contact_title: The will be displayed as the title in the Contact section
+contact_title: Contact
+# contact_description: This will be displayed under the title.
+contact_description: Get in touch with me directly or reply to something on one of my socials!.
+
+# GITHUB-METADATA
+# Set this to your forked repository
+# > e.g. <user>/<user>.github.io
+repository: vasim07/vasim07.github.io
+projects:
+  # sortby:
+  # > set this to pushed, if you want to sort your github repositories by time.
+  # > set this to stars, if you want to sort your github repositories by stars.
+  sort_by: pushed
+  exclude:
+    # archived:
+    # > setting this to true, will exclude archived repositories
+    # > setting this to false, will also display archived repositories
+    archived: true
+    # forks:
+    # > setting this to true, will exclude forked repositories
+    # > setting this to false, will also display forked repositories
+    forks: true
+    # projects: A list of the repository names you want to exclude from the listing.
+    projects:
+    # - repo1-to-be-excluded
+    # - repo2-to-be-excluded
+
+# GOOGLE-ANALYTICS
+# Set the id, if you want to track your website with Google Analytics
+# > set this to "", if you do not want to track with Google Analytics
+google-analytics:
+  id: " "
+
+### END OF VALUES YOU SHOULD CHANGE ###
+
+plugins:
+  - "jekyll-github-metadata"
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]
