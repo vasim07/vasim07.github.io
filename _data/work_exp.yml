@@ -13,7 +13,7 @@
 #     - tag: AngularJS 
 #     - tag: Node
 
-- name: NEC SWS 
+- name: NEC SWS (Lead Business Intelligence)
   Period: Jan 2020 - Present
   descr: "Devlop Power BI reports."
   demo:
@@ -22,7 +22,7 @@
     - tag: Data Visualization
     - tag: Business Intelligence
 
-- name: Willis Towers Watson 
+- name: Willis Towers Watson (MI Manager)
   Period: Aug 2019 - Jan 2020
   descr: "Mange Analytics team."
   demo:
@@ -31,7 +31,7 @@
     - tag: SQL
     - tag: Data science
 
-- name: Rave Technologies 
+- name: Rave Technologies (Reporting Manager
   Period: Dec 2012 - Aug 2019
   descr: "KPI measurement."
   demo:
@@ -40,7 +40,7 @@
     - tag: SQL
     - tag: Data science
 
-- name: Jardine Lloyd Thompson 
+- name: Jardine Lloyd Thompson (MI Assistant Manager)
   Period: Aug 2008 - Dec 2012
   descr: "Prepare reports."
   demo:
