@@ -29,7 +29,7 @@
   descr: "Focus on optimizing productivity and monitoring SLA performance through data-driven insights. Manage a team of four analysts and lead the design of scalable data models tailored to business needs."
   demo:
   tags:
-    - tag: People Management
+    - tag: Excel
     - tag: SQL
     - tag: Data science
 
@@ -39,9 +39,8 @@
   descr: "Track key business KPIs across Operations, HR, Sales, and Finance, delivering clear, actionable dashboards to senior management. Reports supporting strategic decision-making and highlight performance trends across departments."
   demo:
   tags:
-    - tag: Python
+    - tag: Power BI
     - tag: SQL
-    - tag: Data science
 
 - name: Jardine Lloyd Thompson
   desig: MI Assistant Manager
@@ -49,6 +48,5 @@
   descr: "Prepare Excel reports to track KPIs and monitor daily operations, ensuring visibility into key performance metrics and process efficiency."
   demo:
   tags:
-    - tag: Python
-    - tag: SQL
-    - tag: Data science 
+    - tag: Excel
+    - tag: KPI
