@@ -15,7 +15,7 @@
 
 - name: NEC SWS 
   Period: Jan 2020 - Present
-  descr: "Worked with Vermis Labs for 18 months contract role. Successfully delivered multiple projects in the field of Data Analytics, Data Visualization, and Business Intelligence."
+  descr: "Devlop Power BI reports."
   demo:
   tags:
     - tag: Power BI
@@ -24,7 +24,7 @@
 
 - name: Willis Towers Watson 
   Period: Aug 2019 - Jan 2020
-  descr: "Worked for 3 years on retail and ecommerce analysis. Develop and maintain data pipelines, ETL processes, and data models to support analytics and reporting needs."
+  descr: "Mange Analytics team."
   demo:
   tags:
     - tag: Python
@@ -33,7 +33,7 @@
 
 - name: Rave Technologies 
   Period: Dec 2012 - Aug 2019
-  descr: "Worked for 3 years on retail and ecommerce analysis. Develop and maintain data pipelines, ETL processes, and data models to support analytics and reporting needs."
+  descr: "KPI measurement."
   demo:
   tags:
     - tag: Python
@@ -42,7 +42,7 @@
 
 - name: Jardine Lloyd Thompson 
   Period: Aug 2008 - Dec 2012
-  descr: "Worked for 3 years on retail and ecommerce analysis. Develop and maintain data pipelines, ETL processes, and data models to support analytics and reporting needs."
+  descr: "Prepare reports."
   demo:
   tags:
     - tag: Python
