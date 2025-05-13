@@ -26,7 +26,7 @@
 - name: Predicting The Costs Of Used Cars (3rd place)
   descr: "Cars are more than just a utility for many. They are often the pride and status of the family. We all have different tastes when it comes to owning a car or at least when thinking of owning one. Predicting the costs of used cars given the data collected from various sources and distributed across various locations in India."
   demo: https://analyticsindiamag.com/deep-tech/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/
-  type: Website Link
+  type: website link
   tags:
     - tag: Python
     - tag: Data science
