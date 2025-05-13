@@ -13,36 +13,40 @@
 #     - tag: AngularJS 
 #     - tag: Node
 
-- name: NEC SWS (Lead Business Intelligence)
+- name: NEC SWS
+  desig: Lead Business Intelligence
   Period: Jan 2020 - Present
-  descr: "Devlop Power BI reports."
+  descr: "Build insightful Power BI dashboards, including HR Director, Diversity, Payroll, and Attrition reports. Use SQL to validate data accuracy and ensure reliable reporting. Additionally, work with Fabric Python Notebooks to extract and integrate external data sources for enhanced analytics."
   demo:
   tags:
     - tag: Power BI
-    - tag: Data Visualization
-    - tag: Business Intelligence
+    - tag: Python
+    - tag: Fabric
 
-- name: Willis Towers Watson (MI Manager)
+- name: Willis Towers Watson )
+  desig: MI Manager
   Period: Aug 2019 - Jan 2020
-  descr: "Mange Analytics team."
+  descr: "Focus on optimizing productivity and monitoring SLA performance through data-driven insights. Manage a team of four analysts and lead the design of scalable data models tailored to business needs."
   demo:
   tags:
-    - tag: Python
+    - tag: People Management
     - tag: SQL
     - tag: Data science
 
-- name: Rave Technologies (Reporting Manager)
+- name: Rave Technologies 
+  desig: Reporting Manager
   Period: Dec 2012 - Aug 2019
-  descr: "KPI measurement."
+  descr: "Track key business KPIs across Operations, HR, Sales, and Finance, delivering clear, actionable dashboards to senior management. Reports supporting strategic decision-making and highlight performance trends across departments."
   demo:
   tags:
     - tag: Python
     - tag: SQL
     - tag: Data science
 
-- name: Jardine Lloyd Thompson (MI Assistant Manager)
+- name: Jardine Lloyd Thompson
+  desig: MI Assistant Manager
   Period: Aug 2008 - Dec 2012
-  descr: "Prepare reports."
+  descr: "Prepare Excel reports to track KPIs and monitor daily operations, ensuring visibility into key performance metrics and process efficiency."
   demo:
   tags:
     - tag: Python
