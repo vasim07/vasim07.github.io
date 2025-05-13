@@ -5,6 +5,7 @@
 # - name: Language
 #   weight: 5 #Power BI
 
+# POWER BI tab
 - name: DAX
   weight: 3 
 
@@ -20,3 +21,8 @@
 - name: Relationship
   weight: 2   
 
+- name: Tabular Editor
+  weight: 2  
+
+- name: DevOps CICD
+  weight: 3

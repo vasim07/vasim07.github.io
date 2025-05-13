@@ -5,18 +5,25 @@
 # - name: Git
 #   weight: 5
 
+# Data Science tab
 - name: Pandas
   weight: 5 
 
-- name: Regression
-  weight: 3
+- name: Scikit-learn
+  weight: 3 
 
-- name: Classification
-  weight: 3
+- name: XGBoost
+  weight: 2
+
+- name: LightGBM
+  weight: 2  
+
+- name: Confusion Matrix
+  weight: 2
 
 - name: Machine Learning
-  weight: 3  
+  weight: 2  
 
 - name: Model Evaluation
-  weight: 3    
+  weight: 2    
 

@@ -1,0 +1,49 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS 
+#     - tag: Node
+
+- name: Vermis Labs - Power BI Developer 
+  Period: 18 months
+  descr: "Worked for 18 months contract role. Successfully delivered multiple projects in the field of Data Analytics, Data Visualization, and Business Intelligence."
+  demo:
+  tags:
+    - tag: Power BI
+    - tag: Data Visualization
+    - tag: Business Intelligence
+
+- name: Confidential - ETL & Analytics 
+  Period: 3.5 years
+  descr: "Worked for an apparel company on retail and ecommerce analysis. Develop and maintain data pipelines, ETL processes, and data models to support analytics and reporting needs."
+  demo:
+  tags:
+    - tag: Python
+    - tag: SQL
+    - tag: Data science
+
+- name: Datrick - Power BI & SQL Analyst 
+  Period: 6 months
+  descr: "Successfully delivered MS Power BI & SQL projects for a leading UK-based company."
+  demo:
+  tags:
+    - tag: Power BI
+    - tag: SQL
+    - tag: Data analysis
+
+# - name: Power BI Real Estate Dashboard | Advanced Analytics
+#   descr: "Explore how Power BI can transform real estate data into actionable insights! In this demo, I showcase an interactive dashboard built for the real estate sector using advanced Power BI visuals such as Maps, Key Influencer, and Decomposition Tree."
+#   demo: https://youtu.be/puILeezF_5g
+#   tags:
+#     - tag: Power BI
+#     - tag: Analytics
+#     - tag: Data Visualization

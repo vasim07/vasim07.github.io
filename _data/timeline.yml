@@ -17,58 +17,58 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: NEC Software Solutions
-  title-url: https://example.com/
-  date: Jan 2020 - Present
-  subtitle: BI Engineer
-  tags:
-    - tag: Python
-    - tag: SQL
-    - tag: Power BI
-  timeline-side: right
+# - title: NEC Software Solutions
+#   title-url: https://example.com/
+#   date: Jan 2020 - Present
+#   subtitle: BI Engineer
+#   tags:
+#     - tag: Python
+#     - tag: SQL
+#     - tag: Power BI
+#   timeline-side: right
 
-- title: Willis Towers Watson
-  title-url: https://example.com/
-  date: Aug 2019 - Jan 2020
-  subtitle: MI Manager
-  tags:
-    - tag: Data Visualization
-    - tag: Team Management
-    - tag: SQL
-    - tag: Excel
-  timeline-side: left
+# - title: Willis Towers Watson
+#   title-url: https://example.com/
+#   date: Aug 2019 - Jan 2020
+#   subtitle: MI Manager
+#   tags:
+#     - tag: Data Visualization
+#     - tag: Team Management
+#     - tag: SQL
+#     - tag: Excel
+#   timeline-side: left
 
-- title: Rave Technologies
-  title-url: https://example.com/
-  date: Dec 2012 - Aug 2019
-  subtitle: Reporting Manager
-  tags:
-    - tag: Power BI
-    - tag: Excel
-    - tag: Data Analytics
-  timeline-side: left
+# - title: Rave Technologies
+#   title-url: https://example.com/
+#   date: Dec 2012 - Aug 2019
+#   subtitle: Reporting Manager
+#   tags:
+#     - tag: Power BI
+#     - tag: Excel
+#     - tag: Data Analytics
+#   timeline-side: left
 
-- title: Jardine Lloyd Thompson
-  title-url: https://example.com/
-  date: Aug 2008 - Dec 2012
-  subtitle: MI Assitant Manager
-  tags:
-    - tag: Reporting
-    - tag: Excel Visualization
-    - tag: Data Analytics
-  timeline-side: right
+# - title: Jardine Lloyd Thompson
+#   title-url: https://example.com/
+#   date: Aug 2008 - Dec 2012
+#   subtitle: MI Assitant Manager
+#   tags:
+#     - tag: Reporting
+#     - tag: Excel Visualization
+#     - tag: Data Analytics
+#   timeline-side: right
 
-- title: Indian Institute of Management, Ahmedabad
+- title: IIM, Ahmedabad
   title-url: https://example.com/
   date: 2020 - 2021
   subtitle: Diploma in Advanced Business Analytics
-  timeline-side: left
+  timeline-side: right
 
-- title: N. L. Dalmia Institute of Management Studies and Research
+- title: N. L. Dalmia Institute of Management
   title-url: https://example.com/
   date: 2017 - 2019
   subtitle: MBA, Finance
-  timeline-side: left
+  timeline-side: right
 
 - title: Microsoft
   title-url: https://example.com/
@@ -78,4 +78,14 @@
     - tag: Data Engineer
     - tag: Data Science
     - tag: Data Analyst
-  timeline-side: left  
+  timeline-side: left 
+
+- title: Andela
+  title-url: https://example.com/
+  date: 2017 - 2019
+  subtitle: Qualifued Exam
+  tags:
+    - tag: Data Engineer
+    - tag: Data Science
+    - tag: Data Analyst
+  timeline-side: left 

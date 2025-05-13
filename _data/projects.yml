@@ -16,6 +16,7 @@
 - name: Power BI Project - Monitor & Improve Gross profit
   descr: "The project demonstrate the use of Power BI to monitor and improve gross profit. It includes key metrics on a dashboard that provides insights into gross grofit, cost breakdown, and profitability metrics. The dashboard allows users to filter data by different dimensions such as work week, employee, manager etc. "
   demo: https://youtu.be/j-fAP6O6htI
+  type: youtube video
   tags:
     - tag: Power BI
     - tag: SQL
@@ -25,6 +26,7 @@
 - name: Predicting The Costs Of Used Cars (3rd place)
   descr: "Cars are more than just a utility for many. They are often the pride and status of the family. We all have different tastes when it comes to owning a car or at least when thinking of owning one. Predicting the costs of used cars given the data collected from various sources and distributed across various locations in India."
   demo: https://analyticsindiamag.com/deep-tech/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/
+  type: Website Link
   tags:
     - tag: Python
     - tag: Data science
@@ -32,6 +34,7 @@
 - name: Power BI Real Estate Dashboard | Advanced Analytics
   descr: "Explore how Power BI can transform real estate data into actionable insights! In this demo, I showcase an interactive dashboard built for the real estate sector using advanced Power BI visuals such as Maps, Key Influencer, and Decomposition Tree."
   demo: https://youtu.be/puILeezF_5g
+  type: youtube video
   tags:
     - tag: Power BI
     - tag: Analytics

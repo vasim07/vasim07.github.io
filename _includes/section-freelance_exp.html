@@ -1,22 +1,23 @@
 {% if site.show_projects %}
-  <h1 class="title"><span>{{site.projects_title}}</span></h1>
+  <h1 class="title"><span>{{site.freelance_exp_title}}</span></h1>
   <div class="projects-wrapper">
-    {% for project in site.data.projects %}
+    {% for project in site.data.freelanceExp %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3> 
+          <h3>{{project.Period}}</h3> 
         </div>
         <p class="project-desc">{{project.descr}}</p>
         {% if project.demo %}
           <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            {{project.type}}
+            Demo
           </a>
         {% endif %}
-        {% if project.tags %}
+        {% if project.tags %} 
           <div class="tag-wrapper">
             {% for tag in project.tags %}
               <span class="tag neumorphism-card">{{tag.tag}}</span>
-            {% endfor %} 
+            {% endfor %}
           </div>
         {% endif %}
       </div>

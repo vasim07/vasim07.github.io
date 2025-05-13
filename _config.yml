@@ -57,7 +57,7 @@ skills_title: Skills
 # > setting this to false, will omit the Timeline section
 show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: Education & Experience
+timeline_title: Education & Certification
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://example.com/
@@ -72,13 +72,13 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Freelance Projects
+projects_title: Demo Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
 show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Freelance Projects
+os_projects_title: Demo Projects
 
 # CONTACT SECTION
 # show_contact_card:
@@ -89,6 +89,34 @@ show_contact_card: true
 contact_title: Contact
 # contact_description: This will be displayed under the title.
 contact_description: Get in touch with me directly or reply to something on one of my socials!.
+
+show_freelance_exp_card: true
+# show_projects:
+# > setting this to true, will display your listed projects in _data/projects.yml
+# > setting this to false, will omit your listed projects
+show_freelance_exp: true
+# projects_title: The will be displayed as the title of your projects
+freelance_exp_title: Long Term Freelance Work Experience
+# show_os_projects:
+# > setting this to true, will display your public projects on github
+# > setting this to false, will omit your public projects on github
+show_os_projects: false
+# os_projects_title: The will be displayed as the title of your open source projects
+os_projects_title: Freelance Work Experience
+
+show_work_exp_card: true
+# show_projects:
+# > setting this to true, will display your listed projects in _data/projects.yml
+# > setting this to false, will omit your listed projects
+show_work_exp: true
+# projects_title: The will be displayed as the title of your projects
+work_exp_title: Work Experience
+# show_os_projects:
+# > setting this to true, will display your public projects on github
+# > setting this to false, will omit your public projects on github
+show_os_projects: false
+# os_projects_title: The will be displayed as the title of your open source projects
+os_projects_title: Freelance Work Experience
 
 # GITHUB-METADATA
 # Set this to your forked repository
