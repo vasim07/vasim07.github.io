@@ -59,20 +59,20 @@
 #   timeline-side: right
 
 - title: IIM, Ahmedabad
-  title-url: https://example.com/
+  title-url: https://www.iima.ac.in/academics/ePGD-ABA
   date: 2020 - 2021
-  subtitle: Diploma in Advanced Business Analytics
+  subtitle: PG Diploma in Advanced Business Analytics
   timeline-side: right
 
 - title: N. L. Dalmia Institute of Management
-  title-url: https://example.com/
+  title-url: https://www.nldalmia.in/
   date: 2017 - 2019
   subtitle: MBA, Finance
   timeline-side: right
 
 - title: Microsoft
-  title-url: https://example.com/
-  date: 2017 - 2019
+  title-url: https://learn.microsoft.com/en-us/users/vasimshaikh-2446/transcript/vp1priw5ll9qll2
+  date: 2022 - 2023
   subtitle: Microsoft Certified
   tags:
     - tag: Data Engineer
@@ -81,9 +81,9 @@
   timeline-side: left 
 
 - title: Andela
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: Qualifued Exam
+  title-url: https://client.andela.com/talent/profile/85f02393-7f60-4b08-ae5d-752364031a98?_ga=2.171331939.297200818.1747018945-1929285281.1741785206&_gl=1*1l723z8*_gcl_au*MTYxNjUxOTc3OC4xNzQxNzg1MTQ4LjEzNDY2OTY3OTMuMTc0NjY5MzgxNC4xNzQ2NjkzODEz*_ga*MTkyOTI4NTI4MS4xNzQxNzg1MjA2*_ga_1SBBGYT8D7*czE3NDcwNTk1ODgkbzEwMSRnMSR0MTc0NzA1OTc0MSRqNTYkbDAkaDA.*_ga_9ZFR0H5J2S*czE3NDcwNTk1ODgkbzEwMiRnMSR0MTc0NzA1OTc0MSRqNTYkbDAkaDA.
+  date: 2025 - 2025
+  subtitle: Qualifued Assessment
   tags:
     - tag: Data Engineer
     - tag: Data Science
