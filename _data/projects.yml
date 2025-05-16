@@ -39,3 +39,12 @@
     - tag: Power BI
     - tag: Analytics
     - tag: Data Visualization
+
+- name: From Shopify API to Dashboard with Python, SQL & Power BI. | Data Engineering
+  descr: "In this video, I will show you how to build a data pipeline from Shopify API to Power BI dashboard using Python, SQL and Power BI. We will extract data from Shopify API, transform it using Python and load it into SQL database. Finally, we will create a Power BI dashboard to visualize the data."
+  demo: https://youtu.be/XcFG_iVPqM8
+  type: youtube video
+  tags:
+    - tag: SQL
+    - tag: Python
+    - tag: Retail Analytics
